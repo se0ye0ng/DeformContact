@@ -1,5 +1,12 @@
 # Physics-Encoded Graph Neural Networks for Deformation Prediction under Contact
 
+## (custom) environment
+```bash
+CUDA == 12.1
+python == 3.11
+pytorch == 2.5.0
+knn_cuda == 0.2
+```
 This repository contains the implementation of a model that predicts deformation of shapes using physics encoded graph neural networks. Our approach has been accepted at ICRA 2024, and you can find the preprint of our paper on [arXiv](https://arxiv.org/abs/2402.03466).
 
 
@@ -13,7 +20,7 @@ This repository contains the implementation of a model that predicts deformation
 ## Installation and Setup
 
 1. **Clone the Repository:**
-   
+
    ```sh
    git clone https://github.com/mahdi-slh/DeformContact.git
    cd DeformContact
